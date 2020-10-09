@@ -1,0 +1,13 @@
+apt-get update -y
+apt-get upgrade -y
+pkg install git -y
+git clone [ PASTE THE URL HERE ]
+ls
+cd T-Phish
+ls
+unzip T-Phish
+cd T-Phish
+unzip T-Phish.zip
+chmod 777 start.sh
+./start.sh
+./phish.sh
